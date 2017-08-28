@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        
+        <nav>
+            <!--<div class="navi visible-xs visible-sm">-->
+            <div id="overlay" class="fade-page"></div>
+            <div class="navbar navbar-default">
+                <div class="container-fluid collapse navbar-collapse" id="cont">
+                    <div class="navbar-left">
+                        <ul class="navbar-nav" id="nav-l">
+                            <li><a href="#" class="brand">Beecharge</a></li>
+                            <li><a href="#" id="prod-more">Product <span class="caret"></span></a></li>
+                         <li><a href="#">Enterprise</a></li>
+                         <li><a href="#">Pricing</a></li>
+                         <li><a href="#" id="devs">Developers <span class="caret"></span></a></li>
+                          <li><a href="#" id="more">...</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-right">
+                        <ul class="navbar-nav" id="nav-r">
+                        <li> <a href="#" id="sales">Sales: +1 (000) 111 222</a></li>
+                         <li><a href="#" id ="help">Help <span class="caret"></span></a></li>
+                         <li><a href="#">Sign in</a></li>
+                         <li><a href="#" id="signup">Sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="brand visible-sm-inline">Beecharge</a>
+                <!--<button type="button" id="collapse-btn" class="visible-sm-inline">-->
+                    <a href="#" id="collapse-btn" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span></a>
+                    
+                    
+                
+            </div>
+            <div id="dev-more">
+                <ul id="dev-list">
+                    <li> <div class="check-d">API doc</div></li>
+                     <li> <div class="check-d">  API Integ</div></li>
+                      <li><div class="check-d">  API stats</div></li>
+                </ul>
+                
+            </div>
+            
+            <div id="help-more">
+                <ul id="help-list">
+                    <li><div class="check-h">API doc</div></li>
+                     <li><div class="check-h">API Integ</div></li>
+                      <li><div class="check-h">API stats</div></li>
+                </ul>
+                
+            </div>
+            
+            <div class="container-fluid" id="prod-list">
+                <div id="prod-cont">
+                    <a href="#"><div class="prod-type">
+                        <div class="p-wrapper">
+                            <div class="img-px"><img src="myimages/calendar-256.png"></div>
+                            <div class="img-txt"><p>Career Management</p></div>
+                        </div>
+                        <div class="p-text"><p>Plans, Trial&nbsp;Management, Proration, Addons, Coupons, Self-service Portal</p></div>
+                        <div class="enter-arrow"><span class="glyphicon glyphicon-arrow-right"></span></div>
+                        </div></a>
+                    <a href="#"><div class="prod-type">
+                        
+                        <div class="p-wrapper">
+                            <div class="img-px"><img src="myimages/calendar-256.png"></div>
+                            <div class="img-txt"><p>Billing and Invoicing</p></div>
+                        </div>
+                        <div class="p-text"><p>Plans, Trial&nbsp;Management, Proration, Addons, Coupons, Self-service Portal</p></div>
+                        <div class="enter-arrow"><span class="glyphicon glyphicon-arrow-right"></span></div>
+                    </div></a>
+                    <a href="#"><div class="prod-type">
+                        <div class="p-wrapper">
+                            <div class="img-px"><img src="myimages/calendar-256.png"></div>
+                            <div class="img-txt"><p>Payments and Accounting</p></div>
+                        </div>
+                        <div class="p-text"><p>Plans, Trial&nbsp;Management, Proration, Addons, Coupons, Self-service Portal</p></div>
+                        
+                        <div class="enter-arrow"><span class="glyphicon glyphicon-arrow-right"></span></div>
+                        
+                    </div></a>
+                    <a href="#"><div class="prod-type">
+                        <div class="p-wrapper">
+                            <div class="img-px"><img src="myimages/calendar-256.png"></div>
+                            <div class="img-txt"><p>Reporting and analytics</p></div>
+                        </div>
+                        <div class="p-text"><p>Plans, Trial&nbsp;Management, Proration, Addons, Coupons, Self-service Portal</p></div>
+                        <div class="enter-arrow"><span class="glyphicon glyphicon-arrow-right"></span></div>
+                        
+                    </div></a>
+                    <a href="#"><div class="prod-type" id="last-prod">
+                        
+                        
+                            <div id="xero">xero</div>
+                            <div><p id="feature">FEATURE</p></div>
+                            <p>Beecharge Xero Integration <span class="glyphicon glyphicon-arrow-right"></span></p>
+                            <p>Simplified Career for businesses</p>
+                        
+                        
+                    </div></a>
+                </div>
+                
+                
+            </div>
+            <div id="c-menu" class="collapse-menu-show collapse-menu-hide" >
+                <a href="#" id="close"><span class="glyphicon glyphicon-remove"></span></a>
+                <a href="#">Sign in -></a>
+                
+                <div class="mnav-content">
+                
+                <a href="#" class="p-box">Schedule a demo -></a>
+                <a href="#" class="p-box"> <span class="glyphicon glyphicon-earphone"></span> Call Sales</a>
+                <p class="head">Product</p>
+                <p><a href="#" class="p-type" id="test1">Career Management</a></p>
+                <p><a href="#" class="p-type">Billing Management</a></p>
+                <p><a href="#" class="p-type">Career Management</a></p>
+                <p><a href="#" class="p-type">Career Management</a></p>
+                <p class="head">Enterprise</p>
+                <p class="head">Customers</p>
+                <p class="head">Pricing</p>
+                
+                </div>
+                
+            </div>
+            <!--</div>-->
+        </nav>
+        <section>
+            <div class="container text-center" id="sec-1">
+                <div id="intro">
+                
+                <h1>The smartest way to set up your Career billing</h1>
+                
+                    
+                <p>We get SaaS billing. All the nuts & bolts you need to manage Careers, recurring payments, invoicing and much more, with one elegant API layer. Give it a spin.</p>
+                
+                <a href="#" class="btn btn-primary" id="sign-btn"><span class="s-text-h">Sign up for free</span> </a>
+                <div><a href="#" class="btn">Schedule a Demo</a>
+                
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="container" id="iceberg">
+                <img src="myimages/iceberg.svg" class="img-responsive">
+                <div class="test">
+                <h3>There’s more to Careers</h3>
+                <p>Renewals and recurring charges just scratch the surface. Soon, you'd expect more from your Careers.
+                    Like running pricing experiments. Upselling with add-ons. And letting your team, not just the developers,
+                    manage Careers first-hand. We've built everything that you'd need to steer your way through the 
+                    nuances of Careers.</p>
+                <a href="#" class="btn btn-primary" id="ice-btn"><span class="s-text-exp">Explore Careers</span></a>
+                </div>
+                
+            </div>
+            <div class="container text-center" id="tech-logos">
+                <img src="myimages/tech-logos.svg" class="img-responsive">
+                <p>Build with a language of your choice.</p>
+                <a href="#" class="btn btn-secondary">Developer Center --></a>            
+            </div>
+        </section>
+        <section class="container">
+            <a href="#" id="stripe-cont">
+            <div id="stripe">
+                <img src="myimages/stripe_logo.svg">
+                <div>
+                <p>Use Stripe to accept payments.</p>
+                <p>Do more with Stripe --></p>
+                </div>
+                
+            </div>
+            </a>
+            <div>
+                <ul class="pgs text-center">
+                    <li><img src="myimages/braintree.svg" width="115"></li>
+                    <li><img src="myimages/paypal.svg" width="75"></li>
+                    <li><img src="myimages/gocardless.svg" width="150"></li>
+                    <li><img src="myimages/Authorize.net-Logo.png" width="150"></li>
+                    <li><img src="myimages/worldpay.png" width="140"></li>
+                    <li><img src="myimages/amazon-payments.png" width="180"></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <div id="perf">
+                <img src="myimages/g2-crowd-chargebee.svg">
+                <p>Highest-rated Career Management Solution</p>
+                <p>See how Beecharge <a href="#">compares with others --></a></p>
+            </div>
+            
+            <div class="container-fluid cf-ftr" id="ftr-signup">
+                <p>Put an end to clunky billing solutions. Your first $50K free.</p>
+                <div class='text-center'>
+                    <div><a href="#" class="btn btn-primary" id="ftr-sign"><span class="s-text">Sign up for free</span> <!--<span class="r-arrow"></span>--></a></div>
+                    <div><a href="#" class="btn" id="ftr-sch">Schedule a demo --></a></div>
+                </div>
+            </div>
+            <div class="container-fluid cf-ftr">
+            <div class="container trio hidden-sm hidden-xs">
+                <div class="row text-center">
+                    <div class="col-md-4">Quick support 24*5</div>
+                    <div class="col-md-4">99.9% uptime</div>
+                    <div class="col-md-4">Highly secure</div>
+                </div>
+            </div>  
+            <div class="container footer">
+                <div class='hidden-xs'>Product
+                    <ul class='ftr-list'>
+                        <li>What's new</li>
+                        <li>Career Management</li>
+                        <li>Billing</li>
+                    </ul></div>
+                <div class='hidden-xs'>Do more with
+                <ul class='ftr-list'>
+                        <li>Stripe</li>
+                        <li>Braintree</li>
+                        <li>Paypal</li>
+                    </ul></div>
+                <div>Help and Support
+                    <ul class='ftr-list'>
+                        <li>Help Center</li>
+                        <li>Security</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class='hidden-xs'>Company
+                <ul class='ftr-list'>
+                        <li>Customers</li>
+                        <li>Partners</li>
+                        <li>Careers</li>
+                    </ul></div>
+            </div>
+                
+                <div class='compare'>
+                    <div class="hidden-xs">
+                        <p>Compare Beecharge with Zuora, Recurly and Chargify</p>
+                        <p class="hidden-xs">Beecharge for Product Managers, Developers and Finance Teams</p>
+                    </div>
+                    <div class="visible-xs">
+                        <p id="p-ftr">Compare Beecharge with</p>
+                        <ul class="ul-ftr">
+                        <li>Zuora</li>
+                        <li>Recurly</li>
+                        <li>Chargify</li></ul>
+                        
+                    </div>
+                    <div class='feature'>
+                        <a href='#'>
+                         <img class="hidden-sm hidden-xs" src='https://www.chargebee.com/blog/images/posts/thumbs/customer-communication-process.jpg'>
+                    
+                        
+                        <div id='feature-tag'>
+                        <p>Featured Story</p>
+                        <p>Friction isn't always the bad guy in User Experience</p>
+                        </div></a>
+                    </div>
+                    <div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
